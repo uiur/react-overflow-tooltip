@@ -22,10 +22,6 @@ npm install react-overflow-tooltip
 var reactOverflowTooltip = require('react-overflow-tooltip')
 ```
 
-## Contributing
-
-Contributions welcome! Please read the [contributing guidelines](CONTRIBUTING.md) first.
-
 ## License
 
 [ISC](LICENSE)
