@@ -1,0 +1,28 @@
+{
+  "name": "react-overflow-tooltip",
+  "description": "A React component that shows a tooltip only if the text is overflow",
+  "version": "1.0.0",
+  "author": "Kazato Sugimoto <uiureo@gmail.com>",
+  "bugs": {
+    "url": "https://github.com/uiureo/react-overflow-tooltip/issues"
+  },
+  "devDependencies": {
+    "standard": "*",
+    "tap-spec": "^4.0.2",
+    "tape": "^4.0.0"
+  },
+  "homepage": "https://github.com/uiureo/react-overflow-tooltip",
+  "keywords": [
+    "browser",
+    "react"
+  ],
+  "license": "ISC",
+  "main": "src/index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/uiureo/react-overflow-tooltip.git"
+  },
+  "scripts": {
+    "test": "standard && tape test/*.js | tap-spec"
+  }
+}
