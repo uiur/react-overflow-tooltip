@@ -1,4 +1,5 @@
 import React from 'react'
+import ReactDOM from 'react-dom'
 
 function isTextOverflow (element) {
   return element.clientWidth < element.scrollWidth
@@ -26,7 +27,7 @@ export default class OverflowTooltip extends React.Component {
   }
 
   checkOverflow () {
-    const element = React.findDOMNode(this)
+    const element = ReactDOM.findDOMNode(this)
 
     const overflow = isTextOverflow(element)
     if (overflow !== this.state.overflow) {
@@ -49,5 +50,6 @@ export default class OverflowTooltip extends React.Component {
 
 OverflowTooltip.displayName = 'OverflowTooltip'
 OverflowTooltip.propTypes = {
-  title: React.PropTypes.string.isRequired
+  title: React.PropTypes.string.isRequired,
+  children: React.PropTypes.node.isRequired
 }
