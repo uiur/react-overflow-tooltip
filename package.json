@@ -11,8 +11,9 @@
     "babel": "^5.8.21",
     "babel-core": "^5.8.34",
     "jsdom": "^7.0.2",
-    "react": "^0.14.3",
-    "react-dom": "^0.14.3",
+    "prop-types": "^15.5.8",
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4",
     "standard": "*"
   },
   "homepage": "https://github.com/uiureo/react-overflow-tooltip",
