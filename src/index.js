@@ -1,4 +1,5 @@
 import React from 'react'
+import PropTypes from 'prop-types'
 import ReactDOM from 'react-dom'
 
 function isTextOverflow (element) {
@@ -50,6 +51,6 @@ export default class OverflowTooltip extends React.Component {
 
 OverflowTooltip.displayName = 'OverflowTooltip'
 OverflowTooltip.propTypes = {
-  title: React.PropTypes.string.isRequired,
-  children: React.PropTypes.node.isRequired
+  title: PropTypes.string.isRequired,
+  children: PropTypes.node.isRequired
 }
